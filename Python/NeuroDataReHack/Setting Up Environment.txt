@@ -1,0 +1,94 @@
+
+(base) C:\Users\uggriffin>conda create -n datarehack
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\uggriffin\anaconda3\envs\datarehack
+
+
+
+Proceed ([y]/n)? n
+
+
+CondaSystemExit: Exiting.
+
+
+(base) C:\Users\uggriffin>conda create -n datarehack python==3.8
+Collecting package metadata (current_repodata.json): done
+Solving environment: failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\uggriffin\anaconda3\envs\datarehack
+
+  added / updated specs:
+    - python==3.8
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2022.07.19 |       haa95532_0         123 KB
+    certifi-2022.9.14          |   py38haa95532_0         155 KB
+    openssl-1.1.1q             |       h2bbff1b_0         4.8 MB
+    pip-22.2.2                 |   py38haa95532_0         2.3 MB
+    python-3.8.0               |       hff0d562_2        15.9 MB
+    setuptools-63.4.1          |   py38haa95532_0         1.0 MB
+    sqlite-3.39.3              |       h2bbff1b_0         804 KB
+    wincertstore-0.2           |   py38haa95532_2          15 KB
+    ------------------------------------------------------------
+                                           Total:        25.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  ca-certificates    pkgs/main/win-64::ca-certificates-2022.07.19-haa95532_0 None
+  certifi            pkgs/main/win-64::certifi-2022.9.14-py38haa95532_0 None
+  openssl            pkgs/main/win-64::openssl-1.1.1q-h2bbff1b_0 None
+  pip                pkgs/main/win-64::pip-22.2.2-py38haa95532_0 None
+  python             pkgs/main/win-64::python-3.8.0-hff0d562_2 None
+  setuptools         pkgs/main/win-64::setuptools-63.4.1-py38haa95532_0 None
+  sqlite             pkgs/main/win-64::sqlite-3.39.3-h2bbff1b_0 None
+  vc                 pkgs/main/win-64::vc-14.2-h21ff451_1 None
+  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.27.29016-h5e58377_2 None
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 None
+  wincertstore       pkgs/main/win-64::wincertstore-0.2-py38haa95532_2 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+pip-22.2.2           | 2.3 MB    | ############################################################################ | 100%
+wincertstore-0.2     | 15 KB     | ############################################################################ | 100%
+ca-certificates-2022 | 123 KB    | ############################################################################ | 100%
+certifi-2022.9.14    | 155 KB    | ############################################################################ | 100%
+openssl-1.1.1q       | 4.8 MB    | ############################################################################ | 100%
+python-3.8.0         | 15.9 MB   | ############################################################################ | 100%
+setuptools-63.4.1    | 1.0 MB    | ############################################################################ | 100%
+sqlite-3.39.3        | 804 KB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate datarehack
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+
+(base) C:\Users\uggriffin>conda activate datarehack
+
+(datarehack) C:\Users\uggriffin>conda deactivate
+
+(base) C:\Users\uggriffin>conda activate datarehack
+
+(datarehack) C:\Users\uggriffin>

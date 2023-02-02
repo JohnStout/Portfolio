@@ -1,0 +1,20 @@
+Starting a new project on python
+
+1) Set up environment
+2) Open visual studio
+3) Download packages
+	"pip install:
+		numpy
+		pandas
+		pynwb
+		requests
+		nwbwidgets
+		dandi"
+mglearn is another great one
+scipy
+matplotlib
+sklearn
+pip install dandi
+
+When selecting environment in visual studio:
+cntl+shift+p -> select interpreter
